@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.chat-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.chat-popup.active {
+  display: block;
+}
+
+.chat-input {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.chat-messages {
+  height: calc(100% - 100px);
+  overflow-y: scroll;
+}
+
+.chat-message {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.study-goal-tracker {
+  margin-top: 20px;
+}
+
+.study-goal-item {
+  margin-bottom: 10px;
+}
+
+.distraction-blocker {
+  margin-top: 20px;
+}
+
+.blocked-website {
+  color: red;
+}
+
+.note-taking {
+  margin-top: 20px;
+}
+
+.note-input {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.note-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-item {
+  padding: 5px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
